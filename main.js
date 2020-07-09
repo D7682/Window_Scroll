@@ -1,3 +1,3 @@
-window.addEventListener('scroll', () =>{
-    console.log(window.pageYOffset());
-})
+window.onscroll = () => {
+    console.log(window.pageYOffset);
+}
